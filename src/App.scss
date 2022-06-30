@@ -1,0 +1,35 @@
+body {
+    padding: 2rem;
+}
+
+.title {
+    text-align: center;
+    img {
+        width: 2rem;
+    }
+}
+
+form {
+    width: 100%;
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    input {
+        width: 80%;
+        margin-right: 0.5rem;
+        font-size: 1rem;
+        padding-left: 1rem;
+    }
+
+    .select-filter {
+        width: 19%;
+    }
+}
+
+.review-count {
+    margin-bottom: 1rem;
+    span {
+        color: #1c9cf4;
+    }
+}

@@ -1,0 +1,77 @@
+.card {
+    background: #1c9cf4;
+    padding: 0.1rem;
+    width: 330px;
+    height: 330px;
+    margin: 5px;
+
+    &-container {
+        background-color: white;
+        width: 300px;
+        height: 300px;
+        position: relative;
+        top: 15px;
+        left: 15px;
+        padding: 2rem;
+        overflow: scroll;
+        border-radius: 10px;
+    }
+
+    &-body {
+        font-size: 0.9rem;
+        color: rgb(64, 64, 64);
+        line-height: 1.1rem;
+    }
+
+    &-stars{
+        div {
+            display: inline-block;
+            font-size: 2rem;
+        }
+        &-blue {
+            color: #1c9cf4;
+        }
+        &-gray {
+            color: gray;
+        }
+    }
+
+    &-title {
+        color: #1c9cf4;
+    }
+
+    &-author {
+        color: gray;
+        font-size: 0.8rem;
+        display: inline-block;
+    }
+
+    &-date {
+        color: gray;
+        display: inline-block;
+        font-size: 0.8rem;
+        margin-left: 0.5rem;
+    }
+
+    &-footer {
+        &-left {
+            img {
+                width: 2rem;
+                position: relative;
+                bottom: 2rem;
+                left: 3rem;
+            }
+
+            p {
+                position: relative;
+                bottom: 4rem;
+                left: 5.5rem;
+                font-size: 0.8rem;
+
+                span {
+                    color: gray;
+                }
+            }
+        }
+    }
+}
